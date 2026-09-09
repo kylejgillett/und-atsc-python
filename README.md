@@ -11,7 +11,7 @@ This repository contains installation instructions, scripts, and environments to
 
 ## Prerequisite Installations
 Before setting up the Python environment, two installations are required:
-1) Python (version 3.11+)
+1) Python (**version 3.11**)
 2) JupyterLab
 
 ### **Python Installation**
@@ -133,9 +133,44 @@ Before setting up the Python environment, two installations are required:
 
 <br>
 
+
+## Running JupyterLab
+
+After Python 3.11 and JupyterLab have been installed and the UND ATSC Python environment is set up, JupyterLab can be started with the following commands:
+
+- ### Windows: 
+
+    Open a Command Prompt and type:
+
+    ```cmd
+    jupyter lab
+    ```
+
+    or:
+
+    ```cmd
+    py -m jupyterlab
+    ```
+
+    <br>
+
+- ### Mac:
+
+    Open a Terminal and type:
+
+    ```bash
+    jupyter lab
+    ```
+
+    This will open a browser tab that will allow you to work with Jupyter notebooks (`.ipynb` files).
+
+    After opening a Jupyter notebook, click the current kernel name (usually **Python 3 (ipykernel)**) in the top-right corner of the notebook and change it to **und_atsc_kernel**. This ensures the notebook uses the packages installed in the UND ATSC Python environment.
+
+
+
 ## Activating the UND ATSC Python Environment
 
-After the UND ATSC Python environment has been created, it must be *activated* whenever you want to use the installed Python packages from a Command Prompt or Terminal. Doing so varies by operating system:
+Should you run into any issues with the instructions above, if JupyterLab doesn't open, or if you want to try updating a package within the environment, do so by *activating* the environment. This also varies by operating system:
 
 - ### Windows
 
@@ -191,34 +226,7 @@ After the UND ATSC Python environment has been created, it must be *activated* w
 
 <br>
 
-## Running JupyterLab
 
-After Python 3.11 and JupyterLab have been installed and the UND ATSC Python environment is set up, JupyterLab can be started with the following commands:
+## Have questions ?
 
-- ### Windows: 
-
-    Open a Command Prompt and type:
-
-    ```cmd
-    jupyter lab
-    ```
-
-    or:
-
-    ```cmd
-    py -m jupyterlab
-    ```
-
-    <br>
-
-- ### Mac:
-
-    Open a Terminal and type:
-
-    ```bash
-    jupyter lab
-    ```
-
-    This will open a browser tab that will allow you to work with Jupyter notebooks (`.ipynb` files).
-
-    After opening a Jupyter notebook, click the current kernel name (usually **Python 3 (ipykernel)**) in the top-right corner of the notebook and change it to **und_atsc_kernel**. This ensures the notebook uses the packages installed in the UND ATSC Python environment.
+Reach out to Dr. Jordan Christian (jordan.i.christian@und.edu) or Kyle Gillett (kyle.gillett@und.edu)
