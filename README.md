@@ -1,8 +1,18 @@
 <p align="center"><img width="500" alt="atsc_logo" src="https://github.com/user-attachments/assets/e1887f29-e747-48b8-89bb-077b1a042341" /></p>
 
+<div align="center">
+
 # Python Environment for UND ATSC courses
 
+If you have questions or run into issues, reach out to Dr. Jordan Christian (jordan.i.christian@und.edu) or Kyle Gillett (kyle.gillett@und.edu)
+
+<br> 
+
+> ### If you need to *UPDATE your existsing* `und_atsc_env`, please jump to the [Creating The `und_atsc_env` Environment.](#creating-the-und-atsc-python-environment) section!
+
 <br>
+
+</div>
 
 ## Overview
 This repository contains installation instructions, scripts, and environments to set up Python on personal computers to complete coding assignments in UND ATSC courses.
@@ -78,6 +88,8 @@ Before setting up the Python environment, two installations are required:
 <br>
 
 ## Creating the UND ATSC Python Environment
+
+> **If you are UPDATING**: start over from this point. Ensure that you are in your home directory (not in the `und-atsc-python` directory). This rewrites your environment but *will not* alter your work.
 
 - ### Windows
     Open the Command Prompt, and use the `cd` command to change directories to a location where you would like to keep the Python environment. If you prefer to simply create the environment under \Users\your_username on your computer, skip to the next step.
@@ -167,6 +179,7 @@ After Python 3.11 and JupyterLab have been installed and the UND ATSC Python env
     After opening a Jupyter notebook, click the current kernel name (usually **Python 3 (ipykernel)**) in the top-right corner of the notebook and change it to **und_atsc_kernel**. This ensures the notebook uses the packages installed in the UND ATSC Python environment.
 
 
+<br>
 
 ## Activating the UND ATSC Python Environment
 
@@ -230,3 +243,19 @@ Should you run into any issues with the instructions above, if JupyterLab doesn'
 ## Have questions ?
 
 Reach out to Dr. Jordan Christian (jordan.i.christian@und.edu) or Kyle Gillett (kyle.gillett@und.edu)
+
+<br>
+
+## Testing your installation
+
+
+1. Follow the instructions above to [activate your `und_atsc_env` environment.](#activating-the-und-atsc-python-environment)
+2. When your environment is activated, type the following command into your terminal (Mac) or command prompt (Windows):
+
+    ```cmd
+    sounderpy --help
+    ```
+
+    If a message pops up with instructions for using SounderPy, your environment is working and up to date!
+
+    > **Note**: If that doesn't work, you may need to use ``python -m sounderpy --help`` (also try ``python3`` and ``py``)
