@@ -8,11 +8,27 @@ If you have questions or run into issues, reach out to Dr. Jordan Christian (jor
 
 <br> 
 
-> ### If you need to *UPDATE your existsing* `und_atsc_env`, please jump to the [Creating The `und_atsc_env` Environment.](#creating-the-und-atsc-python-environment) section!
+> ### If you need to *UPDATE your existing* `und_atsc_env`, please jump to the [Creating The `und_atsc_env` Environment.](#creating-the-und-atsc-python-environment) section!
 
 <br>
 
 </div>
+
+## Contents
+
+* [Overview](#overview)
+* [Prerequisite Installations](#prerequisite-installations)
+
+  * [Python Installation](#python-installation)
+  * [JupyterLab Installation](#jupyterlab-installation)
+* [Creating the UND ATSC Python Environment](#creating-the-und-atsc-python-environment)
+* [Running JupyterLab](#running-jupyterlab)
+* [Activating the UND ATSC Python Environment](#activating-the-und-atsc-python-environment)
+* [Testing Your Installation](#testing-your-installation)
+* [Have Questions?](#have-questions)
+
+
+<br>
 
 ## Overview
 This repository contains installation instructions, scripts, and environments to set up Python on personal computers to complete coding assignments in UND ATSC courses.
@@ -76,7 +92,7 @@ Before setting up the Python environment, two installations are required:
     ```cmd
     py -m pip install jupyterlab
     ```
-    > **Note:** Depending on your python install, you made need to use `python`, `python3` or `py` at the beginning of the above command.
+    > **Note:** Depending on your python install, you may need to use `python`, `python3` or `py` at the beginning of the above command.
 
 - **Mac** 
     
@@ -94,14 +110,14 @@ Before setting up the Python environment, two installations are required:
 - ### Windows
     Open the Command Prompt, and use the `cd` command to change directories to a location where you would like to keep the Python environment. If you prefer to simply create the environment under \Users\your_username on your computer, skip to the next step.
 
-    1. In the Command Prompt, type: 
+    1. If the Command Prompt, type: 
     ```cmd
     git clone https://github.com/jordanichristian/und-atsc-python.git
     ```
 
     > **Note:** If the above command doesn't work, [download and install Git for Windows](https://gitforwindows.org/). Keep all of the default selected options during the install. After installation is complete, close the Command Prompt, open a new Command Prompt, and try the `git clone` command again in the Command Prompt.
 
-    2. then enter the new directory: 
+    2. Then enter the new directory: 
     
     ```cmd
     cd und-atsc-python
@@ -125,7 +141,7 @@ Before setting up the Python environment, two installations are required:
     git clone https://github.com/jordanichristian/und-atsc-python.git
     ```
 
-    2. then enter the new directory:
+    2. Then enter the new directory:
 
     ```cmd
     cd und-atsc-python
@@ -183,7 +199,7 @@ After Python 3.11 and JupyterLab have been installed and the UND ATSC Python env
 
 ## Activating the UND ATSC Python Environment
 
-Should you run into any issues with the instructions above, if JupyterLab doesn't open, or if you want to try updating a package within the environment, do so by *activating* the environment. This also varies by operating system:
+To troubleshoot issues, install or update packages, or run Python commands directly within the UND ATSC environment, first activate the environment. This also varies by operating system:
 
 - ### Windows
 
@@ -240,7 +256,7 @@ Should you run into any issues with the instructions above, if JupyterLab doesn'
 <br>
 
 
-## Have questions ?
+## Have questions?
 
 Reach out to Dr. Jordan Christian (jordan.i.christian@und.edu) or Kyle Gillett (kyle.gillett@und.edu)
 
