@@ -196,10 +196,37 @@ After Python 3.11 and JupyterLab have been installed and the UND ATSC Python env
 
 
 <br>
+<br>
+
+## Have questions?
+
+Reach out to Dr. Jordan Christian (jordan.i.christian@und.edu) or Kyle Gillett (kyle.gillett@und.edu)
+
+<br>
+<br>
+
+
+
+## Testing your installation
+
+1. Follow the instructions above to [activate your `und_atsc_env` environment.](#activating-the-und-atsc-python-environment)
+2. When your environment is activated, type the following command into your terminal (Mac) or command prompt (Windows):
+
+    ```cmd
+    sounderpy --help
+    ```
+
+    If a message pops up with instructions for using SounderPy, your environment is working and up to date!
+
+    > **Note**: If that doesn't work, you may need to use ``python -m sounderpy --help`` (also try ``python3`` and ``py``)
+
+
+<br>
+<br>
 
 ## Activating the UND ATSC Python Environment
 
-To troubleshoot issues, install or update packages, or run Python commands directly within the UND ATSC environment, first activate the environment. This also varies by operating system:
+**FOR ADVANCED USERS ONLY:** To troubleshoot issues, install or update packages, or run Python commands directly within the UND ATSC environment, first activate the environment. This also varies by operating system:
 
 - ### Windows
 
@@ -254,24 +281,3 @@ To troubleshoot issues, install or update packages, or run Python commands direc
     > **Note:** The environment must be activated from the `und-atsc-python` directory unless you provide the full path to the `und_atsc_env` directory.
 
 <br>
-
-
-## Have questions?
-
-Reach out to Dr. Jordan Christian (jordan.i.christian@und.edu) or Kyle Gillett (kyle.gillett@und.edu)
-
-<br>
-
-## Testing your installation
-
-
-1. Follow the instructions above to [activate your `und_atsc_env` environment.](#activating-the-und-atsc-python-environment)
-2. When your environment is activated, type the following command into your terminal (Mac) or command prompt (Windows):
-
-    ```cmd
-    sounderpy --help
-    ```
-
-    If a message pops up with instructions for using SounderPy, your environment is working and up to date!
-
-    > **Note**: If that doesn't work, you may need to use ``python -m sounderpy --help`` (also try ``python3`` and ``py``)
