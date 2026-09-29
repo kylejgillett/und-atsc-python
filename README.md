@@ -64,7 +64,7 @@ Before setting up the Python environment, two installations are required:
 - ### Mac
 
     1. Open a Terminal, and type: 
-        ```cmd
+        ```bash
         python3.11 --version
         ```
 
@@ -96,7 +96,7 @@ Before setting up the Python environment, two installations are required:
     
     1. Open a Terminal, and type:
     
-        ```cmd
+        ```bash
         python3.11 -m pip install jupyterlab
         ```
 
@@ -133,17 +133,17 @@ Before setting up the Python environment, two installations are required:
     Open the Command Prompt, and use the `cd` command and navigate to the directory where you would like to keep the UND ATSC Python environment.
 
     1. In the Terminal, type: 
-        ```cmd
+        ```bash
         git clone https://github.com/jordanichristian/und-atsc-python.git
         ```
 
     2. Then enter the new directory:
-        ```cmd
+        ```bash
         cd und-atsc-python
         ```
     
     3. Then, run the script `create_python_env_mac_linux.sh` by typing: 
-        ```cmd
+        ```bash
         ./create_python_env_mac_linux.sh
         ```
 
